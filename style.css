@@ -1,0 +1,127 @@
+.nav{
+    display: flex;
+    flex-direction:row;
+    gap: 200px;
+   margin-top: 30px; 
+    
+  }
+ .div{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+  }
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+}
+.logo{
+    width: 100px;
+    height: 40px;
+    margin-left: 70px;
+}
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-side {
+    font-size: 22px;;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .btn {
+    width: 100px;
+    height: 28px;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+
+  .main_section {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 60px;
+    gap: 10px;
+  }
+
+  .card :nth-child(2) {
+    margin-top: 60px;
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    z-index: 6;
+    margin-left: 16px;
+  }
+
+  .card :nth-child(1) {
+    margin-left: 90px;
+    margin-top: 260px;
+    height: 300px;
+    width: 350px;
+    position: absolute;
+    z-index: 3;
+  }
+  .heading{
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-top: 10px;
+  }
+  .img{
+    display: flex;
+    flex-direction: column;
+  }
+  .img :nth-child(1){
+    width: 40px;
+    height: 40px;
+    margin-right: 300px;
+  }
+  .img :nth-child(2){
+    width: 40px;
+    height: 40px;
+    margin-left: 400px;
+  }
+  h1{
+    font-size: 50px;
+    font-style: bold
+  }
+  p{
+    margin-top: -10px;
+    font-size: 13px;
+  }
+  input{
+     width: 150px;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 8px
+
+  }
+  .btn_1{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+  }
+  footer{
+    margin-left: 800px;
+    margin-top: 3px;
+  }
+  .img3{
+    display: flex;
+    gap: 10px;
+    height: 20px;
+    width: 20px;
+  }
+  .last_icon{
+    margin-left: 600px;
+    height: 40px;
+    width: 40px;
+    margin-top: 100px;
+  }
+  .p1{
+    font-size: 13px;
+    font-style: bold;
+    margin-left: 13px;
+  }
